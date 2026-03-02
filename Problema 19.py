@@ -1,0 +1,17 @@
+#Problema 19:Promedio y datos de un alumno
+print("¿Cuál es su nombre completo?")
+nom=input()
+print("número de boleta")
+bol=input()
+print("dé su primera calificación en base a centenas")
+cal1=float(input())
+print("dé su segunda calificación")
+cal2=float(input())
+print("tercera")
+cal3=float(input())
+print("cuarta")
+cal4=float(input())
+print("quinta")
+cal5=float(input())
+prom=(cal1+cal2+cal3+cal4+cal5)/5
+print("NOMBRE: ",nom,"BOLETA: ",bol,"PROMEDIO: ", prom) 

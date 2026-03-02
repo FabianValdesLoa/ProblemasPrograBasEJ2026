@@ -1,0 +1,11 @@
+#Problema 17:Cálculo de beneficio
+print("dame el precio de venta del producto")
+pre=float(input())
+print("dame la cantidad vendida")
+can=float(input())
+print("dame el costo fijo por producto")
+cf=float(input())
+print("dame el costo variable por producto")
+cv=float(input())
+ben=float((pre-(cf/cv))*can)
+print("El beneficio es de:" , ben)

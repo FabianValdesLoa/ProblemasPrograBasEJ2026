@@ -1,0 +1,11 @@
+#Problema 21:Banquete por evento
+print("Nombre del evento")
+eve=input()
+print("Fecha del evento")
+fec=str(input())
+print("Número de asistentes")
+asis=int(input())
+agua=float(asis*1.5)
+carne=float(asis*350)
+salsa=float(agua*0.25)
+print("Para el evento:",eve," el día:",fec," se necesita:",agua," litros de agua,",carne,"gramos de carne y ",salsa," litros de salsa")
